@@ -1,0 +1,148 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "type": "B&W Printers"
+    },
+    {
+      "id": 2,
+      "type": "Color Printers"
+    },
+    {
+      "id": 3,
+      "type": "Wide Format Printers"
+    },
+    {
+      "id": 4,
+      "type": "Consumables"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "IM 2500",
+      "description": "B&W Copy/Print/Scan. Print Speed (A4): 25ppm.",
+      "imageLink": "",
+      "categoryId": 1,
+      "price": 2250
+    },
+    {
+      "id": 2,
+      "name": "IM 2702",
+      "description": "B&W Copy/Print/Scan/Fax. Print Speed (A4): 27ppm.",
+      "imageLink": "",
+      "categoryId": 1,
+      "price": 2750
+    },
+    {
+      "id": 3,
+      "name": "IM 2001SP",
+      "description": "B&W Copy/Print/Scan/Fax/Wireless. Print Speed (A4): 20ppm.",
+      "imageLink": "",
+      "categoryId": 1,
+      "price": 3150
+    },
+    {
+      "id": 4,
+      "name": "IMC 2000",
+      "description": "Color Copy/Print/Scan. Print Speed (A4): 20ppm.",
+      "imageLink": "",
+      "categoryId": 2,
+      "price": 4520
+    },
+    {
+      "id": 5,
+      "name": "IMC 3000",
+      "description": "Color Copy/Print/Scan/Fax. Print Speed (A4): 30ppm.",
+      "imageLink": "",
+      "categoryId": 2,
+      "price": 5520
+    },
+    {
+      "id": 6,
+      "name": "MP W6700SP",
+      "description": "Wide Format Color Copy/Print/Scan. Print Speed (A0): 3.3-6.7 ppm.",
+      "imageLink": "",
+      "categoryId": 3,
+      "price": 2250
+    },
+    {
+      "id": 7,
+      "name": "Print Cartridge #84209",
+      "description": "Black cartridge for IM2500, 2702, 2001",
+      "imageLink": "",
+      "categoryId": 4,
+      "price": 45
+    },
+    {
+      "id": 8,
+      "name": "Print Cartridge #84509",
+      "description": "Black cartridge for IMC2000, IMC3000",
+      "imageLink": "",
+      "categoryId": 4,
+      "price": 55
+    },
+    {
+      "id": 9,
+      "name": "Print Cartridge #84510/11/12",
+      "description": "Cyan/Magneta/Yellow cartridge for IMC2000, IMC3000",
+      "imageLink": "",
+      "categoryId": 4,
+      "price": 110
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Van Nguyen",
+      "email": "van@nguyen.com",
+      "administrative": true
+    },
+    {
+      "id": 2,
+      "name": "Elizabeth Taylor",
+      "email": "elizabeth@taylor.com",
+      "administrative": false
+    },
+    {
+      "id": 3,
+      "name": "Jen Ariston",
+      "email": "jen@ariston.com",
+      "administrative": false
+    },
+    {
+      "id": 4,
+      "name": "Mike Sweeney",
+      "email": "mike@sweeney.com",
+      "administrative": false
+    },
+    {
+      "id": 5,
+      "name": "Jenny Lopez",
+      "email": "jenny@lopez.com",
+      "administrative": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "email": "harry@potter.com",
+      "message": ""
+    },
+    {
+      "id": 2,
+      "name": "Tony Stark",
+      "email": "tony@stark.com",
+      "message": ""
+    },
+    {
+      "name": "Jimmy Nguyen",
+      "message": "",
+      "email": "jimmy@nguyen.com",
+      "id": 3
+    }
+  ],
+  "orders": [],
+  "serviceTickets": []
+}
