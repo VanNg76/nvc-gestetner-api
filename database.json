@@ -25,13 +25,13 @@
       "imageLink": "/images/IM2500.jpg",
       "showedAdditionInfo": false,
       "categoryId": 1,
-      "price": 2250
+      "price": 1500
     },
     {
       "id": 2,
       "name": "Multifunction IM 2702 Printer",
       "description": "B&W Copy/Print/Scan/Fax. Print Speed (A4): 27ppm.",
-      "imageLink": "/images/IM2702.png",
+      "imageLink": "/images/IM2702.jpg",
       "showedAdditionInfo": false,
       "categoryId": 1,
       "price": 2750
@@ -47,7 +47,7 @@
     },
     {
       "id": 4,
-      "name": "Multifunction Color IMC 2000",
+      "name": "Multifunction Color IMC 2000 Printer",
       "description": "Color Copy/Print/Scan. Print Speed (A4): 20ppm.",
       "imageLink": "/images/IMC2000.jpg",
       "showedAdditionInfo": false,
@@ -56,7 +56,7 @@
     },
     {
       "id": 5,
-      "name": "Multifunction Color IMC 3000",
+      "name": "Multifunction Color IMC 3000 Printer",
       "description": "Color Copy/Print/Scan/Fax. Print Speed (A4): 30ppm.",
       "imageLink": "/images/IMC3000.jpg",
       "showedAdditionInfo": false,
@@ -70,12 +70,12 @@
       "imageLink": "/images/W6700SP.jpg",
       "showedAdditionInfo": false,
       "categoryId": 3,
-      "price": 2250
+      "price": 5550
     },
     {
       "id": 7,
       "name": "Print Cartridge #84209",
-      "description": "Black cartridge for IM2500, 2702, 2001",
+      "description": "Black cartridge for IM2500/2702/2001",
       "imageLink": "/images/black-toner.jpg",
       "showedAdditionInfo": false,
       "categoryId": 4,
@@ -83,40 +83,40 @@
     },
     {
       "id": 8,
-      "name": "Print Cartridge #84509",
-      "description": "Black cartridge for IMC2000, IMC3000",
+      "name": "Print Cartridge #84509/10/11/12",
+      "description": "CMYK cartridge for IMC2000/IMC3000",
       "imageLink": "/images/cmy-toner.jpg",
       "showedAdditionInfo": false,
       "categoryId": 4,
-      "price": 55
+      "price": 355
     },
     {
-      "id": 9,
-      "name": "Print Cartridge #84510/11/12",
-      "description": "Cyan/Magneta/Yellow cartridge for IMC2000, IMC3000",
-      "imageLink": "/images/cmy-toner.jpg",
+      "name": "WF 6500",
+      "description": "Print speed 5ppm A0",
+      "imageLink": "/images/IM2500.jpg",
       "showedAdditionInfo": false,
-      "categoryId": 4,
-      "price": 110
+      "categoryId": 3,
+      "price": 11000,
+      "id": 9
     }
   ],
   "employees": [
     {
       "id": 1,
       "name": "Van Nguyen",
-      "email": "van@nguyen.com",
+      "email": "van@nvc.com",
       "administrative": true
     },
     {
       "id": 2,
-      "name": "Jen Ariston",
-      "email": "jen@ariston.com",
+      "name": "William Ariston",
+      "email": "william@nvc.com",
       "administrative": false
     },
     {
       "id": 3,
-      "name": "Jenny Lopez",
-      "email": "jenny@lopez.com",
+      "name": "James Roberts",
+      "email": "james@nvc.com",
       "administrative": false
     }
   ],
@@ -124,111 +124,120 @@
     {
       "id": 1,
       "name": "Harry Potter",
-      "email": "harry@potter.com",
+      "email": "harry@nvc.com",
       "message": ""
     },
     {
       "id": 2,
       "name": "Tony Stark",
-      "email": "tony@stark.com",
+      "email": "tony@nvc.com",
       "message": ""
     },
     {
-      "name": "Jimmy Nguyen",
+      "name": "Jimmy Ng.",
       "message": "",
-      "email": "jimmy@nguyen.com",
+      "email": "jimmy@nvc.com",
       "id": 3
     }
   ],
   "orders": [
     {
-      "id": 3,
-      "productId": 4,
-      "employeeId": 1,
+      "productId": 2,
       "customerId": 2,
+      "employeeId": 2,
       "quantity": 2,
-      "deliveryDate": "2022-03-19",
-      "completed": false
+      "deliveryDate": "2022-03-19T14:00",
+      "completed": false,
+      "id": 16
     },
     {
       "productId": 3,
       "customerId": 1,
       "employeeId": 1,
-      "quantity": 1,
-      "deliveryDate": "2022-03-12",
+      "quantity": 2,
+      "deliveryDate": "2022-03-31T14:30",
       "completed": false,
-      "id": 4
-    },
-    {
-      "productId": 7,
-      "customerId": 3,
-      "employeeId": 1,
-      "quantity": 5,
-      "deliveryDate": "2022-03-22",
-      "completed": false,
-      "id": 6
+      "id": 23
     },
     {
       "productId": 8,
+      "customerId": 2,
+      "employeeId": 1,
+      "quantity": 3,
+      "deliveryDate": "2022-03-25T14:30",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "productId": 5,
       "customerId": 3,
       "employeeId": 1,
-      "quantity": 10,
-      "deliveryDate": "2022-03-15",
+      "quantity": 2,
+      "deliveryDate": "2022-04-06T10:47",
       "completed": false,
-      "id": 7
+      "id": 30
+    },
+    {
+      "productId": 4,
+      "customerId": 3,
+      "employeeId": 1,
+      "quantity": 2,
+      "deliveryDate": "2022-04-11T14:20",
+      "completed": true,
+      "id": 32
     },
     {
       "productId": 1,
       "customerId": 1,
       "employeeId": 1,
       "quantity": 1,
-      "deliveryDate": "2022-03-09",
-      "completed": false,
-      "id": 8
+      "deliveryDate": "2022-06-22T08:23",
+      "completed": true,
+      "id": 33
     }
   ],
   "serviceTickets": [
     {
-      "id": 2,
-      "description": "fix paper jams",
-      "customerId": 2,
-      "employeeId": 3,
-      "completed": false
-    },
-    {
-      "id": 3,
       "description": "add fax kit",
-      "customerId": 1,
-      "employeeId": 2,
-      "completed": false
-    },
-    {
-      "description": "replace platen",
       "customerId": 3,
-      "employeeId": 2,
+      "employeeId": 3,
       "completed": false,
-      "id": 4
+      "id": 9
     },
     {
       "description": "replace broken platen",
+      "customerId": 2,
+      "employeeId": 2,
+      "completed": false,
+      "id": 10
+    },
+    {
+      "description": "add card-readers to all current machines",
+      "customerId": 2,
+      "employeeId": 2,
+      "completed": false,
+      "id": 14
+    },
+    {
+      "description": "change paper roller on IM5500",
       "customerId": 1,
-      "employeeId": 3,
-      "completed": false,
-      "id": 5
-    },
-    {
-      "description": "buy new machine",
-      "customerId": 3,
-      "employeeId": 3,
-      "completed": false,
-      "id": 6
-    },
-    {
-      "description": "test 1",
-      "customerId": 3,
       "employeeId": 1,
       "completed": false,
-      "id": 7
+      "id": 15
+    },
+    {
+      "description": "install new printers",
+      "customerId": 3,
+      "employeeId": 3,
+      "completed": false,
+      "id": 17
+    },
+    {
+      "description": "add new item",
+      "customerId": 1,
+      "employeeId": 1,
+      "completed": true,
+      "id": 18
     }
   ]
 }
